@@ -1,1 +1,4 @@
 # swaggerAPIRef
+
+
+OpenAPI specifications
