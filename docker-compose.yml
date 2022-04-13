@@ -1,0 +1,10 @@
+version: '1'
+services:
+  nodejs:
+    build: .
+    command: node index.js
+    volumes:
+      - .:/usr/swaggerDocs
+      - /usr/swaggerDocs/node_modules
+    ports:
+      - "8080:8080"

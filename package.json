@@ -1,0 +1,25 @@
+{
+  "name": "swaggerdocs",
+  "version": "1.0.0",
+  "description": "SwaggerAPI documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "npm run build && gh-pages -d dist --repo https://divyabhushan.github.io/SwaggerAPIDocs"
+  },
+  "author": "Divya Bhushan",
+  "repository": {
+    "type": "git",
+    "url": "https://divyabhushan.github.io/SwaggerAPIDocs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-basic-auth": "^1.2.1",
+    "swagger-jsdoc": "^6.2.0",
+    "swagger-ui": "^4.10.3",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "homepage": "https://divyabhushan.github.io/SwaggerAPIDocs/"
+}
