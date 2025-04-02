@@ -17,7 +17,7 @@
     "express": "^4.17.3",
     "express-basic-auth": "^1.2.1",
     "swagger-jsdoc": "^6.2.0",
-    "swagger-ui": "^4.10.3",
+    "swagger-ui": "^5.20.2",
     "swagger-ui-express": "^4.3.0",
     "yamljs": "^0.3.0"
   },
